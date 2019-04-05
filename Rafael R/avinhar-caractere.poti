@@ -1,0 +1,37 @@
+escreva "Jogo advinhe os caracteres mágico"
+escreva "Qual seu nome?"
+nome = leia_texto 
+escreva "Bem vindo {nome}"
+var magico = aleatório(97,122)
+var magico2 = aleatório (97,122)
+var magico3 = aleatório (97,122)
+var magico2 = aleatório (97,122)
+var magico4 = aleatório (97,122)
+var magico5 = aleatório (97,122)
+var magico6 = aleatório (97,122)
+numero = leia_texto 
+numero2 = leia_texto
+numero3 = leia_texto
+numero4 = leia_texto
+numero5 = leia_texto
+numero6 = leia_texto
+letra_a = 97
+letra_z = 122
+escreva "{letra_a} na tabela ASCII corresponde a letra {letra_a.caractere}"
+escreva "{letra_z} na tabela ASCII corresponde a letra {letra_z.caractere}"
+escreva "Qual seus palpites de caracteres?"
+palpite = leia_texto
+palpite2 = leia_texto
+palpite3 = leia_texto
+palpite4 = leia_texto
+palpite5 = leia_texto
+palpite6 = leia_texto
+escreva "{nome}, seus palpites foram {palpite}, {palpite2}, {palpite3}, {palpite4}, {palpite5} e {palpite6}"
+escreva "Meus caracteres foram {magico}, {magico2}, {magico3}, {magico4}, {magico5} e {magico6}"
+se magico == palpite e
+se magico2 == palpite2 e
+se magico3 == palpite3 então escreva "Você ganhou!"
+se magico4 == palpite4 e
+se magico5 == palpite5 e
+se magico6 == palpite6 então escreva "Você Perdeu"
+fim
